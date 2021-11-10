@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <form name="quiz" id="quiz">
+        <div class="container">
+            <h1>Quiz App</h1>
+            <div class="questions">
+                <label id="q1" class="lbl" name="q1"> 1. Which of the following is included in the HTML 5 Family?</label><br>
+                <p><input type="radio" name="q1"  value="A"> HTML Markup, SVG, Java, and Silverlight<br></p>
+                <p><input type="radio" name="q1"  value="B">HTML MArkup, CSS, and JavaScript<br></p>
+                <p><input type="radio" name="q1"  value="C">HTML Markup and CSS<br></p>
+            </div>
+            <div class="questions">
+                <label id="q2" class="lbl" name="q2"> 2. When running an app created with HTML5 in the Windows Metro Style UI, Which process hosts the application?</label><br>
+                <p><input type="radio" name="q2"  value="A">iexplore.exe<br></p>
+                <p><input type="radio" name="q2"  value="B">explorer.exe<br></p>
+                <p><input type="radio" name="q2"  value="C">WWAHost.exe<br></p>
+            </div>
+            <div class="questions">
+                <label id="q3" class="lbl" name="q3"> 3. What new feature in HTML5 allows you to manage the state of a session?</label><br>
+                <p><input type="radio" name="q3"  value="A">Manage State Tool<br></p>
+                <p><input type="radio" name="q3"  value="B">History API<br></p>
+                <p><input type="radio" name="q3"  value="C">Session NAvigator<br></p>
+            </div>
+            <div class="questions">
+                <label id="q4" class="lbl" name="q4"> 4. You want to publish an application to the Microsoft store. What should you do first?</label><br>
+                <p><input type="radio" name="q4"  value="A">Review the app requirements and developer agreement<br></p>
+                <p><input type="radio" name="q4"  value="B">Choose and reserve your app name<br></p>
+                <p><input type="radio" name="q4"  value="C">Submit your app to the Store<br></p>
+            </div>
+            <div class="questions">
+                <label id="q5" class="lbl" name="q5"> 5. What is a "lancher icon"?</label><br>
+                <p><input type="radio" name="q5"  value="A">A graphic that represents an application on the device's Home screen<br></p>
+                <p><input type="radio" name="q5"  value="B">A graphic that takes the user to developer's website<br></p>
+                <p><input type="radio" name="q5"  value="C">A graphic of a rocket<br></p>
+            </div>
+            <br>
+           <input type="button" class="btn" value="Submit" onclick="check()">
+           <p id="result"> </p> 
+        </div>   
+    </form>    
+</body>
+</html>
